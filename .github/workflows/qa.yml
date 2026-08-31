@@ -12,5 +12,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Stage exact Pages artifact
+        run: |
+          mkdir -p _site
+          cp -R docs/. _site/
+          cp -R prompts templates skills adapters _site/
       - run: pip install beautifulsoup4
-      - run: python scripts/qa.py docs/index.html
+      - run: python scripts/qa.py _site/index.html
