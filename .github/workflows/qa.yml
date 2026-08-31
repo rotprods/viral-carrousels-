@@ -1,0 +1,22 @@
+name: QA
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  static-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Reconstruct exact student artifact
+        run: |
+          cat site-bundle/site.zip.b64.part* > /tmp/site.b64
+          base64 -d /tmp/site.b64 > /tmp/site.zip
+          mkdir -p _site
+          unzip -q /tmp/site.zip -d _site
+      - run: pip install beautifulsoup4
+      - run: python scripts/qa.py _site/index.html
