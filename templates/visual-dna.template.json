@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "brand_id": "your-brand",
+    "version": "1.0.0",
+    "design_md": "./DESIGN.md",
+    "sources": ["REF01", "REF02"]
+  },
+  "observations": {
+    "personality": [],
+    "palette": {"background": "", "accent": "", "support": []},
+    "typography": {"display": "", "body": "", "hierarchy": []},
+    "composition": {"grid": "", "margins": "", "density": "", "negative_space": ""},
+    "image_treatment": [],
+    "components": []
+  },
+  "invariants": [],
+  "freedom": [],
+  "reject_signals": [],
+  "evidence": [{"rule": "", "source_refs": [], "confidence": "high|medium|low"}]
+}
