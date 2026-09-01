@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "canonical_policy": "Repo state, manifests and release gates are authoritative; chat memory is not.",
+  "versions": [
+    {"version":"v3.0","role":"stable runtime ancestor","local_source":"MODULO_01_ADN_VISUAL_REPRODUCIBLE_v3.0_FINAL_COMPILER_RC.html","bytes":5618253,"sha256":"eec02dfcf01769aa31ab19055eae45cd1c95fcb3d446f6f78ae28e69cd0a135e"},
+    {"version":"v7.1","role":"historical visual/corpus ancestor","local_source":"MODULO_01_AI_SLOP_TO_BRAND_SYSTEM_v7_CANONICAL_MASTER.html","bytes":7721624,"sha256":"1555a1f2d50367b700666d06d4bad8c1d4adacf6f70ce4d0a8aa60f15835752f"},
+    {"version":"v8.0-pro-responsive","role":"latest local full visual course candidate","local_source":"MODULE_01_AI_SLOP_TO_BRAND_SYSTEM_PRO_RESPONSIVE_FINAL.html","bytes":3863984,"sha256":"5139b40a2846e318357f6079ee3813ac44a8a26fa71902c364fcdcc1ba902d57","repo_import_status":"tracked by issue #1"}
+  ]
+}
