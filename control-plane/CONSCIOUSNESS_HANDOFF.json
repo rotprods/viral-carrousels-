@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "checkpoint": "2026-09-01T18:14:00+02:00",
+  "timezone": "Europe/Madrid",
+  "program": "AI-native creative training program",
+  "authority": [
+    "durable GitHub evidence",
+    "tests / real renders / runtime outputs",
+    "generated artifacts",
+    "conversation memory",
+    "assumptions"
+  ],
+  "modules": {
+    "module_01": {
+      "name": "Premium Carousels / De Pinterest a Brand System",
+      "status": "FROZEN_GOOD_ENOUGH",
+      "learner_flow": [
+        "Pinterest references",
+        "Extractor ADN Visual v2",
+        "visual-dna.json",
+        "DESIGN.md",
+        "SKILL.md",
+        "briefing + real assets",
+        "generation",
+        "QA",
+        "reuse"
+      ],
+      "reopen_only_if": "real learner-facing bug or explicit human request",
+      "hosting_priority": "NONE_CURRENT"
+    },
+    "module_02": {
+      "name": "AI-native autonomous video editing",
+      "status": "NEXT_ACTIVE_MISSION",
+      "course_design_gate": "BLOCKED_PENDING_MOTION_OS_X_AVE_FORENSIC_AUDIT",
+      "target_vertical_slice": [
+        "brief",
+        "references",
+        "footage + audio + brand assets",
+        "ingest / understand",
+        "semantic selects",
+        "rough cut",
+        "pacing",
+        "b-roll / captions / motion",
+        "sound",
+        "basic color/look",
+        "temporal QA",
+        "autonomous repair",
+        "master export"
+      ]
+    }
+  },
+  "engines": {
+    "motion_os": {
+      "repo": "rotprods/motion-OS",
+      "role": "candidate autonomous motion-design / creative direction / QA execution substrate",
+      "not_the_syllabus": true,
+      "known_state": "release historically blocked pending production renderer verification, temporal critic, and creative/semantic convergence; must be reverified"
+    },
+    "ave": {
+      "repo": "rotprods/ave",
+      "role": "candidate autonomous video editing / timeline / media / audio / export execution substrate",
+      "not_the_syllabus": true,
+      "known_state": "historically claimed PRODUCTION-100 and 1942/1942 local tests with UI/voice/product-validation and real-LLM caveats; must be corroborated"
+    }
+  },
+  "capability_classification": [
+    "VERIFIED_PRODUCTION",
+    "VERIFIED_PARTIAL",
+    "TEST_ONLY",
+    "STUB",
+    "ASPIRATIONAL",
+    "BLOCKED_EXTERNAL",
+    "UNKNOWN"
+  ],
+  "hard_won_lessons": [
+    "student journey before architecture",
+    "one primary action per learner step",
+    "no dead or misleading controls",
+    "infrastructure is not UX",
+    "supply real source assets instead of asking AI to invent them",
+    "browser and visual QA are required",
+    "mobile-first",
+    "stop when learner-facing goal is met",
+    "do not build UI before the learning graph is clear",
+    "anti-overengineering is a permanent gate"
+  ],
+  "operating_loop": [
+    "READ",
+    "RECONSTRUCT",
+    "VERIFY",
+    "MAP",
+    "DECIDE",
+    "IMPLEMENT",
+    "TEST",
+    "ADVERSARIAL_REVIEW",
+    "SIMPLIFY",
+    "PERSIST"
+  ],
+  "forbidden_loop": [
+    "ASSUME",
+    "BUILD",
+    "PATCH",
+    "PATCH",
+    "PATCH"
+  ],
+  "mandatory_recovery_order": [
+    "control-plane/CONSCIOUSNESS_HANDOFF.md",
+    "control-plane/CONSCIOUSNESS_HANDOFF.json",
+    "handoffs/COS_GRAPH_ENGINE_V2_MASTER_CHECKPOINT_2026-09-01.md",
+    "handoffs/COS_GRAPH_ENGINE_V2_MASTER_CHECKPOINT_2026-09-01.json",
+    "handoffs/MODULE_02_VIDEO_AI_CGEV2_ZERO_CONTEXT.md",
+    "control-plane/AUTHORITY_GRAPH.md",
+    "control-plane/RECOVERY_PROTOCOL.md",
+    "control-plane/DECISIONS.md",
+    "control-plane/RISKS.md",
+    "control-plane/EVIDENCE_LEDGER.jsonl",
+    "control-plane/BENCHMARK_GATES.md",
+    "control-plane/AUTONOMOUS_EDITING_VERTICAL_SLICE_GATE.md",
+    "AGENTS.md",
+    "GOAL.md",
+    "STATE.md",
+    "HANDOFF.md",
+    "CHANGELOG.md",
+    "rotprods/motion-OS",
+    "rotprods/ave"
+  ],
+  "highest_priority_next_action": "Open a fresh chat, execute /CGEV2-VIDEO-TRAINING-ZERO-CONTEXT-V1, recover durable state, then forensically audit Motion.OS and AVE before designing Module 02.",
+  "first_response_required_sections": [
+    "Recovered State",
+    "Motion.OS Reality",
+    "AVE Reality",
+    "Motion.OS x AVE Capability Graph",
+    "Autonomous Editing Readiness",
+    "P0/P1/P2 Gaps",
+    "Minimum Working Autonomous Editor",
+    "Implications for Training",
+    "Next Executable Action"
+  ],
+  "ui_build_allowed": false,
+  "ui_build_unblock_condition": "verified cross-repo capability audit + minimum autonomous editing vertical slice + learner Golden Path",
+  "human_constraint": "move fast, think deeply, avoid unnecessary iteration; stop when learner-facing outcome is good enough"
+}
