@@ -1,8 +1,10 @@
 name: Deploy GitHub Pages
 
+# Pages publication is intentionally manual until the repository Pages site
+# is enabled at repository level. This prevents an infrastructure/bootstrap
+# failure from painting every main commit red while keeping the deploy path
+# available for explicit verification.
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -25,18 +27,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Stage exact Pages artifact
+      - name: Stage exact repository Pages artifact
         run: |
+          rm -rf _site
           mkdir -p _site
           cp -R docs/. _site/
           cp -R prompts templates skills adapters _site/
-      - name: Validate before deploy
+      - name: Validate repository Pages artifact before deploy
         run: |
           pip install beautifulsoup4
           python scripts/qa.py _site/index.html
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      - name: Configure existing GitHub Pages site
+        uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
