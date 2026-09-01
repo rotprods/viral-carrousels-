@@ -1,29 +1,51 @@
 # STATE.md
 
-## Current
-Canonical repository bootstrap is ready for merge on `feat/canonical-course-system` pending the latest CI run.
+## Current program state
+`main` is the durable training/control-plane authority for the AI-native creative systems program.
 
-## Public artifact in this PR
-`docs/index.html` is the responsive GitHub Pages control plane for **AI SLOP → BRAND SYSTEM**. The Pages workflow stages `docs/index.html` plus the canonical `prompts/`, `templates/`, `skills/` and `adapters/`, validates that exact staged artifact, then deploys it.
+The previous bootstrap/PR wording is historical and superseded by this state.
 
-## Implemented
-- Agent continuity: AGENTS / GOAL / STATE / HANDOFF / CHANGELOG.
-- Canonical P00–P17 Prompt OS with one source of truth.
-- Traceable `visual-dna.json` → `DESIGN.md` → `SKILL.md` architecture.
-- Codex / Claude Code / Higgsfield Supercomputer adapters.
-- Responsive Pages control plane with direct P00–P17 COPY actions sourced from `PROMPTS.md`.
-- Static QA and Playwright Browser QA on 390×844, 430×932 and 1440×1000.
-- Browser copy-to-clipboard verification for P00–P17.
-- QA-gated Pages deployment workflow.
-- 29-asset historical semantic ledger with SHA-256 checksums.
-- Version manifest for v3.0, v7.1 and v8.0-pro-responsive ancestry.
-- Hard release gates + PR template.
+## Module 01 — Visual Brand System / Viral Carousels
+Durable repository infrastructure exists:
+- P00–P17 Prompt OS;
+- visual-dna / DESIGN / SKILL architecture;
+- T01–T09 template model;
+- runtime adapters;
+- static + Browser QA infrastructure;
+- 29-asset semantic manifest / version ancestry;
+- historical handoffs and control-plane evidence.
 
-## Remaining P0 — Issue #1
-Import the full image-heavy interactive student course artifact and historical visual binaries into repository-managed Pages assets. Semantic provenance and hashes are already persisted in `assets/manifest.json`; the binary import must match them rather than inventing a new corpus.
+### Open Module 01 risk
+The strongest locally validated image-heavy HTML historically diverged from the repository/public entrypoint. Do not claim a public student release until the exact production artifact is synchronized, tested and its public URL verified. This is tracked by risk R-002.
 
-## Release gate
-1. Latest `QA` and `Browser QA` on the PR head must pass.
-2. Merge the canonical control plane to `main`.
-3. If Pages has never been configured, enable **Settings → Pages → Build and deployment → GitHub Actions** once.
-4. Resolve Issue #1 in a scoped visual-import PR; require image/runtime/390/430/1440 gates before tagging the first full student visual release.
+No further Module 01 feature expansion is a priority without a concrete learner/product defect.
+
+## Module 02 — Autonomous AI Video Editing
+**Active phase: FORENSIC CAPABILITY AUDIT.**
+
+Training design / HTML construction is intentionally BLOCKED.
+
+Known durable engine state:
+- `rotprods/motion-OS`: execution substrate; durable state reports release BLOCKED, including renderer verification / authoritative temporal critic / creative-semantic convergence work.
+- `rotprods/ave`: autonomous editing substrate; durable STATUS historically reports structural PRODUCTION-100 + 1942/1942 local tests, while UI/voice/product validation and real LLM dependency remain incomplete. This is still a documentation-backed claim until corroborated during forensic audit.
+
+## Current P0 gates
+1. Recover Motion.OS and AVE from their current canonical state, not historical chat summaries.
+2. Build an evidence-backed capability matrix using `control-plane/CAPABILITY_AUDIT_SCHEMA.json`.
+3. Distinguish VERIFIED / PARTIAL / STUB / ASPIRATIONAL / BLOCKED / UNKNOWN capability paths.
+4. Map ownership and overlap across ingest, semantic analysis, selects, timeline, pacing/J-L cuts, b-roll, captions, motion, audio, color, render, temporal QA, repair and export.
+5. Run/prove the minimum end-to-end autonomous edit defined in `control-plane/AUTONOMOUS_EDITING_VERTICAL_SLICE_GATE.md`.
+6. Pass the relevant stages in `control-plane/BENCHMARK_GATES.md` before locking Module 02 learning outcomes.
+
+## Control plane
+Canonical recovery and governance now live under `control-plane/`:
+- README / authority graph;
+- recovery protocol / next-agent bootstrap;
+- capability audit schema;
+- benchmark + vertical-slice gates;
+- decision/risk registers;
+- evidence/event ledger;
+- session checkpoint schema + checkpoints.
+
+## Highest-value next action
+**Forensically recover Motion.OS × AVE and construct the evidence-backed capability graph.** Do not spend the next iteration on course UI.
