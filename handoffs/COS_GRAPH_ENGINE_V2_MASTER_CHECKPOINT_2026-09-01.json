@@ -1,0 +1,156 @@
+{
+  "checkpoint": "2026-09-01 Europe/Madrid",
+  "protocol": "COS-GRAPH-ENGINE-V2",
+  "authority": [
+    "GitHub durable state",
+    "generated/tested artifacts",
+    "conversation memory last"
+  ],
+  "program": "AI-native creative systems training",
+  "modules": {
+    "module_01": {
+      "name": "Viral Carousels / Visual Brand System",
+      "repo": "rotprods/viral-carrousels-",
+      "student_flow": [
+        "Pinterest/references",
+        "Extractor ADN Visual v2",
+        "visual-dna.json",
+        "DESIGN.md",
+        "SKILL.md",
+        "briefing + copy + brand assets + visual assets + references",
+        "carousel generation",
+        "QA/repair",
+        "reusable brand system"
+      ],
+      "prompt_range": "P00-P17",
+      "template_range": "T01-T09",
+      "external_gpt": "https://chatgpt.com/g/g-697fac8775c081919387509ec73c69a5-extractor-adn-visual-v2",
+      "status": "functionally mature locally; hosting/repo visual artifact must always be re-verified against latest tested HTML",
+      "hard_invariants": [
+        "student journey before architecture",
+        "one primary action per step",
+        "no dead buttons",
+        "no misleading controls",
+        "no duplicated prompt sources",
+        "real assets over AI invention",
+        "input-action-output-next for each step",
+        "no JS image hydration placeholders",
+        "actual clipboard verification",
+        "Playwright + visual QA before release",
+        "exact delivered artifact must be tested"
+      ]
+    },
+    "module_02": {
+      "name": "AI-native autonomous video editing",
+      "status": "forensic discovery required before curriculum lock",
+      "engines_are_not_curriculum": true,
+      "candidate_engines": [
+        "rotprods/motion-OS",
+        "rotprods/ave"
+      ],
+      "target_user_flow": [
+        "brief",
+        "editing references",
+        "edit DNA",
+        "footage + audio + brand assets",
+        "editing system",
+        "editing skill/agent",
+        "autonomous rough cut",
+        "story/rhythm/b-roll/captions/motion",
+        "sound/color/polish",
+        "temporal + semantic + art-direction QA",
+        "autonomous repair",
+        "master export"
+      ],
+      "candidate_architecture_hypothesis": [
+        "editing references",
+        "edit-dna.json",
+        "EDITING.md",
+        "EDITING_SKILL.md",
+        "brief + footage + audio + assets",
+        "AVE/Motion.OS execution",
+        "timeline/rough cut",
+        "render",
+        "temporal critic",
+        "repair loop",
+        "master"
+      ]
+    }
+  },
+  "systems": {
+    "training_repo": {
+      "repo": "rotprods/viral-carrousels-",
+      "role": "training/control-plane truth"
+    },
+    "motion_os": {
+      "repo": "rotprods/motion-OS",
+      "role": "autonomous motion-design production engine",
+      "known_state": "release blocked; control plane ahead of creative engine; renderer and temporal critic remain P0s"
+    },
+    "ave": {
+      "repo": "rotprods/ave",
+      "role": "agent-native autonomous video editor",
+      "known_state": "PRODUCTION-100 structural milestone reported; local 1942/1942 tests at historical checkpoint; UI/product/real LLM validation incomplete"
+    }
+  },
+  "required_forensic_questions": [
+    "what can AVE execute today",
+    "what can Motion.OS execute today",
+    "verified vs stubbed vs aspirational",
+    "media ingestion ownership",
+    "semantic analysis ownership",
+    "selects ownership",
+    "timeline ownership",
+    "intentional J/L cuts",
+    "reference-driven pacing",
+    "b-roll selection",
+    "caption generation",
+    "sound design",
+    "color normalization/grading",
+    "motion graphics ownership",
+    "reliable renderer paths",
+    "true temporal critic availability",
+    "reference comparison",
+    "autonomous repair",
+    "approved-edit memory/style persistence",
+    "edit-dna + EDITING.md viability",
+    "minimum honest autonomous vertical slice",
+    "2h training demonstrability"
+  ],
+  "forensic_definition_of_done": {
+    "motion_os_reconstructed": false,
+    "ave_reconstructed": false,
+    "verified_capability_matrix": false,
+    "stub_map": false,
+    "overlap_graph": false,
+    "ownership_boundaries": false,
+    "minimum_vertical_slice": false,
+    "student_hidden_boundary": false,
+    "blockers_documented": false,
+    "learning_outcomes_locked": false
+  },
+  "hosting": {
+    "github_pages": {
+      "status": "not authoritative production until public URL and latest course artifact verified",
+      "historical_issue": "Pages enablement blocked by Actions token permissions"
+    },
+    "chatgpt_sites": {
+      "status": "desired option but no publishing connector was available in this chat"
+    },
+    "vercel": {
+      "status": "available fallback hosting connector"
+    }
+  },
+  "highest_priority_next_action": "Forensically recover Motion.OS and AVE, create the verified capability graph, identify the minimum autonomous editing vertical slice, lock Module 02 learning outcomes, then design training.",
+  "recovery_order": [
+    "viral-carrousels-/handoffs/COS_GRAPH_ENGINE_V2_MASTER_CHECKPOINT_2026-09-01.md",
+    "viral-carrousels-/handoffs/MODULE_02_VIDEO_AI_CGEV2_ZERO_CONTEXT.md",
+    "viral-carrousels-/AGENTS.md",
+    "viral-carrousels-/GOAL.md",
+    "viral-carrousels-/STATE.md",
+    "viral-carrousels-/HANDOFF.md",
+    "motion-OS canonical files",
+    "AVE canonical files",
+    "tests/render evidence/open blockers"
+  ]
+}
