@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "COS Graph Engine Session Checkpoint",
+  "type": "object",
+  "required": ["checkpoint_id","timestamp","repository","branch","head_sha","mission","state_change","next_action"],
+  "properties": {
+    "checkpoint_id":{"type":"string"},
+    "timestamp":{"type":"string"},
+    "repository":{"type":"string"},
+    "branch":{"type":"string"},
+    "head_sha":{"type":"string"},
+    "mission":{"type":"string"},
+    "state_change":{"type":"boolean"},
+    "completed":{"type":"array","items":{"type":"string"}},
+    "verified":{"type":"array","items":{"type":"string"}},
+    "blocked":{"type":"array","items":{"type":"string"}},
+    "decisions":{"type":"array","items":{"type":"string"}},
+    "risks":{"type":"array","items":{"type":"string"}},
+    "artifacts":{"type":"array","items":{"type":"string"}},
+    "contradictions":{"type":"array","items":{"type":"string"}},
+    "next_action":{"type":"string"},
+    "recovery_hint":{"type":"string"}
+  }
+}
