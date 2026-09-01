@@ -1,6 +1,6 @@
 # Prompt OS · P00–P17
 
-# P00 · TENGO UNA IDEA, ¿QUÉ HAGO?
+## P00 · TENGO UNA IDEA, ¿QUÉ HAGO?
 
 ```text
 Quiero crear una pieza visual con esta idea:
@@ -22,7 +22,7 @@ No copies el ejemplo: usa su lógica y adapta todo al branding.
 
 ---
 
-# P01 · BUSCAR REFERENCIAS
+## P01 · BUSCAR REFERENCIAS
 
 ```text
 Tengo que crear contenido visual sobre: [TEMA].
@@ -32,7 +32,7 @@ Evita búsquedas genéricas. Usa términos visuales específicos, preferiblement
 
 ---
 
-# P02 · EXTRAER ADN VISUAL
+## P02 · EXTRAER ADN VISUAL
 
 ```text
 Analiza todas las imágenes adjuntas como director de arte.
@@ -44,7 +44,7 @@ Explícalo primero en lenguaje sencillo y después entrégalo como JSON estructu
 
 ---
 
-# P03 · JSON → DESIGN.md
+## P03 · JSON → DESIGN.md
 
 ```text
 Actúa como un DESIGN COMPILER. Convierte el archivo `visual-dna.json` adjunto en un `DESIGN.md` trazable y operativo.
@@ -76,7 +76,7 @@ Si el JSON no soporta una regla, marca `UNRESOLVED` en vez de completarla por in
 
 ---
 
-# P04 · GENERAR PRIMERA PIEZA
+## P04 · GENERAR PRIMERA PIEZA
 
 ```text
 Crea una pieza visual siguiendo el DESIGN.md adjunto.
@@ -91,7 +91,7 @@ Prioriza texto, identidad, jerarquía y ADN visual. No añadas elementos no soli
 
 ---
 
-# P05 · CORREGIR SIN REINICIAR
+## P05 · CORREGIR SIN REINICIAR
 
 ```text
 Edita la pieza anterior. Mantén intacto todo lo que no menciono.
@@ -108,7 +108,7 @@ Devuelve una nueva versión corrigiendo solo ese problema.
 
 ---
 
-# P06 · TRANSFERIR A OTRO FORMATO
+## P06 · TRANSFERIR A OTRO FORMATO
 
 ```text
 Adapta la pieza aprobada a [NUEVO FORMATO].
@@ -119,7 +119,7 @@ No hagas un simple recorte: recompón manteniendo el ADN visual.
 
 ---
 
-# P07 · REVERSE ENGINEERING DE UNA REFERENCIA
+## P07 · REVERSE ENGINEERING DE UNA REFERENCIA
 
 ```text
 Analiza esta referencia sin copiar su apariencia literal.
@@ -137,7 +137,7 @@ Termina con 5 reglas reutilizables.
 
 ---
 
-# P08 · CREAR ÁNGULO + HOOK
+## P08 · CREAR ÁNGULO + HOOK
 
 ```text
 Tema: [TEMA]
@@ -156,7 +156,7 @@ Elige después el ángulo con mayor curiosidad + claridad y explica por qué.
 
 ---
 
-# P09 · STORYBOARD DEL CARRUSEL
+## P09 · STORYBOARD DEL CARRUSEL
 
 ```text
 Construye un storyboard de [8-10] slides.
@@ -178,7 +178,7 @@ No diseñes todavía: define la secuencia.
 
 ---
 
-# P10 · PROMPT POR SLIDE
+## P10 · PROMPT POR SLIDE
 
 ```text
 Usa el DESIGN.md y el storyboard adjuntos.
@@ -197,7 +197,7 @@ No cambies el copy.
 
 ---
 
-# P11 · QA VISUAL
+## P11 · QA VISUAL
 
 ```text
 Evalúa esta pieza del 0 al 100.
@@ -220,7 +220,7 @@ No propongas un rediseño completo si no es necesario.
 
 ---
 
-# P12 · ACTUALIZAR DESIGN.md
+## P12 · ACTUALIZAR DESIGN.md
 
 ```text
 Compara DESIGN.md con la versión final aprobada.
@@ -235,7 +235,7 @@ No reescribas todo el archivo.
 
 ---
 
-# P13 · DESIGN.md → SKILL.md
+## P13 · DESIGN.md → SKILL.md
 
 ```text
 Convierte `DESIGN.md` + `visual-dna.json` en una `SKILL.md` reusable para ejecutar el sistema visual con agentes.
@@ -260,7 +260,7 @@ No inventes reglas visuales. `DESIGN.md` manda. `visual-dna.json` conserva la ev
 
 ---
 
-# P14 · ADAPTAR AL RUNTIME
+## P14 · ADAPTAR AL RUNTIME
 
 ```text
 Adapta esta `SKILL.md` al runtime: [CODEX / CLAUDE CODE / HIGGSFIELD SUPERCOMPUTER].
@@ -277,7 +277,7 @@ Devuelve un adapter corto y ejecutable en lenguaje natural, portable y sin depen
 
 ---
 
-# P15 · RUN BRAND SYSTEM
+## P15 · RUN BRAND SYSTEM
 
 ```text
 Ejecuta el Brand System con estos inputs:
@@ -302,7 +302,7 @@ No generes reglas nuevas y no copies literalmente referencias.
 
 ---
 
-# P16 · LEARN FROM APPROVED
+## P16 · LEARN FROM APPROVED
 
 ```text
 Tenemos un output FINAL APROBADO. Compara:
@@ -321,7 +321,7 @@ Propón patches mínimos, con justificación y cambio de versión. No reescribas
 
 ---
 
-# P17 · RELEASE AUDIT
+## P17 · RELEASE AUDIT
 
 ```text
 Haz una auditoría de release del Brand System.
