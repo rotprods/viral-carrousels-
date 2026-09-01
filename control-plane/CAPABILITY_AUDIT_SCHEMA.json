@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Motion.OS × AVE Capability Audit",
+  "type": "object",
+  "required": ["capability_id","owner_candidates","claim","verification_status","evidence","student_visibility"],
+  "properties": {
+    "capability_id": {"type":"string"},
+    "domain": {"type":"string"},
+    "owner_candidates": {"type":"array","items":{"enum":["motion-OS","ave","shared","external","unknown"]}},
+    "claim": {"type":"string"},
+    "verification_status": {"enum":["VERIFIED","PARTIAL","STUB","ASPIRATIONAL","BLOCKED","UNKNOWN"]},
+    "evidence": {"type":"array","items":{"type":"object","required":["source","kind"],"properties":{"source":{"type":"string"},"commit_sha":{"type":["string","null"]},"kind":{"enum":["code","test","render","ci","doc","issue","pr","manual"]},"result":{"type":"string"}}}},
+    "inputs": {"type":"array","items":{"type":"string"}},
+    "outputs": {"type":"array","items":{"type":"string"}},
+    "dependencies": {"type":"array","items":{"type":"string"}},
+    "blockers": {"type":"array","items":{"type":"string"}},
+    "quality_threshold": {"type":["string","number","null"]},
+    "student_visibility": {"enum":["CORE","OPTIONAL","HIDDEN_INFRA"]},
+    "notes": {"type":"string"}
+  }
+}
