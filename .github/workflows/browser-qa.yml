@@ -1,11 +1,11 @@
-name: Browser QA
+name: Repository Browser QA
 
 on:
   push:
   pull_request:
 
 jobs:
-  playwright:
+  repository-artifact-playwright:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,13 +14,13 @@ jobs:
           node-version: '22'
       - run: npm install
       - run: npx playwright install --with-deps chromium
-      - name: Stage Pages artifact exactly as deploy workflow
+      - name: Stage repository Pages artifact exactly as deploy workflow
         run: |
           rm -rf _site
           mkdir -p _site
-          cp docs/index.html _site/index.html
+          cp -R docs/. _site/
           cp -R prompts templates skills adapters _site/
-      - name: Serve staged artifact
+      - name: Serve staged repository artifact
         run: |
           python3 -m http.server 4173 -d _site >/tmp/course-http.log 2>&1 &
           sleep 2
