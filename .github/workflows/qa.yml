@@ -1,21 +1,24 @@
-name: QA
+name: Repository Static QA
 
 on:
   push:
   pull_request:
 
 jobs:
-  static-qa:
+  repository-artifact-static-qa:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Stage exact Pages artifact
+      - name: Stage repository Pages artifact
         run: |
+          rm -rf _site
           mkdir -p _site
           cp -R docs/. _site/
           cp -R prompts templates skills adapters _site/
-      - run: pip install beautifulsoup4
-      - run: python scripts/qa.py _site/index.html
+      - name: Validate repository Pages artifact
+        run: |
+          pip install beautifulsoup4
+          python scripts/qa.py _site/index.html
