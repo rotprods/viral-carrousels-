@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## [0.2.0] — COS Graph Engine V2+ continuity / evidence control plane
+- Promoted repository scope from a single carousel artifact to an AI-native creative systems training program with explicit Module 01 and Module 02 boundaries.
+- Added `/COS-GRAPH-ENGINE-V2` human and machine-readable zero-context master checkpoints.
+- Added `control-plane/` authority graph, deterministic recovery protocol and next-agent bootstrap.
+- Added append-only decision, risk and evidence/event registers.
+- Added machine-readable capability-audit and session-checkpoint schemas.
+- Added explicit benchmark gates preventing README/test-count capability theater.
+- Added an end-to-end autonomous editing vertical-slice gate requiring real media, timeline/render evidence, full-video criticism, targeted repair and provenance.
+- Reconciled stale `GOAL.md`, `STATE.md` and `HANDOFF.md` with the current active mission.
+- Locked the Module 02 boundary: Motion.OS and AVE are execution substrates to audit, not the training syllabus.
+- Blocked Module 02 training artifact design until the Motion.OS × AVE forensic capability audit and evidence gates pass.
+- Preserved Module 01 publication divergence as an explicit risk rather than silently treating a local HTML or control-plane page as production.
+
 ## [0.1.0] — Canonical repository bootstrap
 - Established Git-backed project continuity with AGENTS / GOAL / STATE / HANDOFF.
 - Added responsive GitHub Pages control plane for AI SLOP → BRAND SYSTEM.
